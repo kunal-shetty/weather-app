@@ -1,0 +1,23 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "Weather application with protected API key",
+  "scripts": {
+    "start": "node server/server.js",
+    "build": "echo 'Build script not needed for static site'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^1.9.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2"
+  },
+  "engines": {
+    "node": ">=18.x"
+  },
+  "main": "script.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
