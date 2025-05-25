@@ -4,7 +4,6 @@ document.addEventListener('DOMContentLoaded', () => {
         app.classList.remove('app-loading');
         app.classList.add('app-loaded');
         createParticles();
-        fetchWeatherData('Mumbai');
     }, 300);
 });
 
